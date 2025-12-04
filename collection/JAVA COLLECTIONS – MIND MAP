@@ -1,0 +1,78 @@
+JAVA COLLECTION FRAMEWORK
+│
+├── 1. LIST  (Ordered, Allows duplicates)
+│     │
+│     ├── ArrayList
+│     │     • Dynamic array
+│     │     • Fast access (get/set)
+│     │     • Slow insertion in middle
+│     │     • Example: students list
+│     │
+│     └── LinkedList
+│           • Doubly linked list
+│           • Fast insertion/deletion
+│           • Good for queue/stack
+│           • Example: tasks list
+│
+├── 2. SET  (No duplicates)
+│     │
+│     ├── HashSet
+│     │     • No duplicates
+│     │     • Not sorted
+│     │     • Fast search (Hash)
+│     │     • Example: unique values
+│     │
+│     └── TreeSet
+│           • Sorted set
+│           • No duplicates
+│           • Useful for ranking
+│           • Example: sorted numbers
+│
+├── 3. MAP  (Key–Value Pair)
+│     │
+│     └── HashMap
+│           • Stores data as key=value
+│           • Fast lookup
+│           • Keys must be unique
+│           • Example: ID → Name
+│
+├── 4. QUEUE  (FIFO)
+│     │
+│     └── LinkedList / PriorityQueue
+│           • add() → insert
+│           • poll() → remove first
+│           • Example: task processing
+│
+├── 5. STACK  (LIFO)
+│     │
+│     └── Stack
+│           • push() → add on top
+│           • pop() → remove top
+│           • Example: Undo operation
+│
+└── 6. Collections Utility Class
+       • Collections.sort() → sort
+       • Collections.reverse() → reverse
+       • Collections.max() / min()
+       • Helps with operations on lists
+       
+       
+       
+       
+SUPER SIMPLE SUMMARY (One-Liner Memory)
+
+ArrayList  → Fast access
+
+LinkedList → Fast insertion
+
+HashSet    → Unique only
+
+TreeSet    → Unique + Sorted
+
+HashMap    → Key–Value
+
+Queue      → First In First Out (FIFO)
+
+Stack      → Last In First Out (LIFO)
+
+Collections class → sort, reverse, max, min
